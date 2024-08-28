@@ -1,7 +1,6 @@
 # *JourneyCraft*
 # Welcome to your Expo Trip Management App 👋
-
-*JourneyCraft*
+# <a href='https://github.com/Rozrc25/JourneyCraft/releases/download/v1.0/JourneyCraft.apk'>Downlode the App</a>
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
