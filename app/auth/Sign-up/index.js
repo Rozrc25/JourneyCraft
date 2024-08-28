@@ -33,14 +33,11 @@ export default function SignUp() {
                 const user = userCredential.user;
                 router.replace('/mytrip')
                 console.log(user)
-
-                // ...
             })
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
                 console.log(errorMessage, errorCode)
-                // ..
             });
     }
 

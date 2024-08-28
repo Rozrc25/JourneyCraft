@@ -21,7 +21,7 @@ export default function HotelCard({ item }) {
     const result = await GetPhotoRef(item.name);
     setPhotoRef(result);
     setLoading(false);
-    console.log("Fetching photo");
+    // console.log("Fetching photo");
   };
 
   // if (result && result.results && result.results.length > 0) {

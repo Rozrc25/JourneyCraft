@@ -22,7 +22,7 @@ export default function Discover() {
       let { status } = await Location.requestForegroundPermissionsAsync();
       if (status !== "granted") {
         console.log("Permission to access location was denied");
-        setLoading(false); // Stop loading if permission is denied
+        setLoading(false); 
         return;
       }
 
@@ -52,7 +52,7 @@ export default function Discover() {
     const API_KEY = process.env.EXPO_PUBLIC_GOOGLE_MAP_KEY;
     try {
       const response = await axios.get(
-        `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=150000&type=${types}&key=${API_KEY}`
+        `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=15000&type=${types}&key=${API_KEY}`
       );
       // console.log("API Response:", response.data.results);
       return response.data.results;
@@ -78,7 +78,6 @@ export default function Discover() {
       {places.length > 0 ? (
         places.map((place, index) => (
           <View key={index} style={styles.card}>
-            {/* Uncomment and update the following line if you have photos */}
             <TouchableOpacity>
               <Image
                 source={{
