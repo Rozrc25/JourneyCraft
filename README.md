@@ -1,9 +1,13 @@
 # Welcome to your Expo Trip Management App 👋
 
-*JourneyCraft*
+# *JourneyCraft*
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+<a href='https://github.com/Rozrc25/JourneyCraft/releases/download/v2.0/JourneyCraft.apk'>Downlode App</a>
+
+<img src="https://ap-south-1.graphassets.com/cluin4dk5034i08pibocl0kui/cm0dz8m7u00gk08pkj8ob3v4n" width="300" height="300">
+![adaptive-icon](https://github.com/user-attachments/assets/5e72e39a-c556-4108-a0f1-fef3e10ea3b8=250x250)
 
 ## Get a fresh project
 
@@ -18,19 +22,23 @@ This command will move the starter code to the **app-example** directory and cre
 The User Trip Management App is a React Native application designed to help users manage their travel plans. The app allows users to view details of their latest and past trips, including trip locations, dates, and the number of travelers. Additionally, users can delete trips from their list if needed.
 
 ## Features
-Display User Trips: Shows a list of trips with details such as location, dates, and traveler count.
-AI: provides recommendations and helps streamline the planning process, making it easier for users to organize their trips.
-Latest Trip Highlight: The most recent trip is highlighted with an image and detailed information.
-Trip Deletion: Users can delete a trip from the list with a confirmation prompt.
-Navigation to Trip Details: Users can navigate to a detailed view of each trip by tapping on the trip card.
+<ul>
+<li>Display User Trips: Shows a list of trips with details such as location, dates, and traveler count.</li>
+<li>AI: provides recommendations and helps streamline the planning process, making it easier for users to organize their trips.</li>
+<li>Latest Trip Highlight: The most recent trip is highlighted with an image and detailed information.</li>
+<li>Trip Deletion: Users can delete a trip from the list with a confirmation prompt.</li>
+<li>Navigation to Trip Details: Users can navigate to a detailed view of each trip by tapping on the trip card.</li>
+</ul>
 
 ## Technologies Used
-React Native: For building the mobile application.
-Expo Router: For handling navigation between different screens.
-Firebase Firestore: For storing and retrieving trip data.
-Moment.js: For date formatting and manipulation.
-Google Maps API: For retrieving and displaying trip location images.
-Gemini AI Integration : Gemini AI provides recommendations and helps streamline the planning process, making it easier for users to organize their trips.
+<ul>
+<li>React Native: For building the mobile application.</li>
+<li>Expo Router: For handling navigation between different screens.</li>
+<li>Firebase Firestore: For storing and retrieving trip data.</li>
+<li>Moment.js: For date formatting and manipulation.</li>
+<li>Google Maps API: For retrieving and displaying trip location images.</li>
+<li>Gemini AI Integration : Gemini AI provides recommendations and helps streamline the planning process, making it easier for users to organize their trips.</li>
+</ul>
 
 ## Setup and Installation
 Prerequisites
@@ -50,9 +58,10 @@ Install Dependencies
 
 ## Environment Variables
 Create a .env file in the root directory and add the following environment variables:
-
+```bash
 EXPO_PUBLIC_GOOGLE_MAP_KEY=your_google_maps_api_key
 EXPO_PUBLIC_GOOGLE_GEMINI_API_KEY=your_google_maps_api_key
+```
 
 ## Firebase Configuration
 Replace the Firebase configuration in FirebaseConfig.js with your own Firebase project's configuration:
