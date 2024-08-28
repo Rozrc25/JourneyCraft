@@ -1,3 +1,4 @@
+# *JourneyCraft*
 # Welcome to your Expo Trip Management App 👋
 
 *JourneyCraft*
